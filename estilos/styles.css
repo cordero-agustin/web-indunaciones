@@ -183,3 +183,17 @@ footer ul li{
     
 }
 
+.titulos {
+    margin-bottom: 50px;
+}
+
+.card {
+    margin: 20px;
+    border: 2px solid whitesmoke;
+}
+
+.card-body {
+    background-color: darkred;
+    color: whitesmoke;
+    
+}
