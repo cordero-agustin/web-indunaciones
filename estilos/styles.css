@@ -199,5 +199,7 @@ footer ul li{
 }
 
 .historia {
-    color: whitesmoke
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
 }
