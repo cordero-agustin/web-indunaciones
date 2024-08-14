@@ -66,6 +66,7 @@ header {
 
 main {
     min-height: 100vh;
+    }
 
     .container {
         display: flex;
@@ -228,4 +229,8 @@ footer {
 
 
     }
+}
+
+.tabla-de-pos{
+    .img-tabla{width: 100px;};
 }
