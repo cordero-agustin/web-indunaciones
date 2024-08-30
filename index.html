@@ -1,97 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagenes/indicon.png">
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"  rel="stylesheet" />
+    <link rel="icon" href="../imagenes/indicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="../cssvar.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/styles.css">
-    
+
     <title>Indunaciones - Home</title>
 </head>
+
 <body>
     <div class="anuncio">
         <p>¡Asociate y accede a los beneficios en la página de merchandising!</p>
     </div>
-     
-    <div>
-      
-
-
-
-    <header class="header">
-        <a href="../index.html"><img src="../imagenes/logo-nav.png" alt="logo" class="logo"></a>
-        <nav class="nav-bar">
-            <a href="../index.html">Home</a>
-            <a href="pages/socios.html">Socios</a>
-            <a href="pages/historia.html">Historia</a>
-            <a href="pages/futbol.html">Fútbol</a>
-            <a href="pages/estadio.html">Estadio</a>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><a href="index.html">Indunaciones</a></label>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="pages/socios.html" class="navitem">Socios</a></li>
+                <li><a href="pages/futbol.html" class="navitem">futbol</a></li>
+                <li><a href="pages/historia.html" class="navitem">Historia</a></li>
+                <li><a href="pages/estadio.html" class="navitem">Estadio</a></li>
+            </ul>
         </nav>
-        <a href="#"><img src="imagenes/menu.png" alt="" class="menu"></a>
     </header>
     <main>
-<div id="animation-carousel" class="relative w-full" data-carousel="static">
-  <!-- Carousel wrapper -->
-  <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-       <!-- Item 1 -->
-      <div class="hidden duration-200 ease-linear" data-carousel-item>
-          <img src="imagenes/carrusel-01.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-      </div>
-      <!-- Item 2 -->
-      <div class="hidden duration-200 ease-linear" data-carousel-item>
-          <a href="https://www.instagram.com/indunaciones/">
-            <img src="imagenes/carrusel-02.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Camiseta suplente 2024/25">
-          </a>
-      </div>
-      <!-- Item 3 -->
-      <div class="hidden duration-200 ease-linear" data-carousel-item="active">
-          <img src="imagenes/carrusel-03.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-      </div>
-      
-  </div>
-  <!-- Slider controls -->
-  <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-          </svg>
-          <span class="sr-only">Previous</span>
-      </span>
-  </button>
-  <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-          </svg>
-          <span class="sr-only">Next</span>
-      </span>
-  </button>
-</div>
+        <div id="animation-carousel" class="relative w-full" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                <!-- Item 1 -->
+                <div class="hidden duration-200 ease-linear" data-carousel-item>
+                    <img src="imagenes/carrusel-01.png"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-200 ease-linear" data-carousel-item>
+                    <a href="https://www.instagram.com/indunaciones/">
+                        <img src="imagenes/carrusel-02.png"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                            alt="Camiseta suplente 2024/25">
+                    </a>
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-200 ease-linear" data-carousel-item="active">
+                    <img src="imagenes/carrusel-03.png"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+        <div class="container-noticias">
+            <div class="noticias">
+                <h1>Noticias</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sed, obcaecati dignissimos veritatis ea
+                    adipisci modi, doloribus ratione eveniet facilis non repellendus? Non, alias. Soluta earum animi
+                    ipsam quia illo.</p>
+            </div>
+            <div class="noticias">
+                <h1>Noticias</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sed, obcaecati dignissimos veritatis ea
+                    adipisci modi, doloribus ratione eveniet facilis non repellendus? Non, alias. Soluta earum animi
+                    ipsam quia illo.</p>
+            </div>
+            <div class="noticias">
+                <h1>Noticias</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sed, obcaecati dignissimos veritatis ea
+                    adipisci modi, doloribus ratione eveniet facilis non repellendus? Non, alias. Soluta earum animi
+                    ipsam quia illo.</p>
+            </div>
+        </div>
+        <div class="container-noticias">
+            <div class="noticias">
+                <h1>Noticias</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sed, obcaecati dignissimos veritatis ea
+                    adipisci modi, doloribus ratione eveniet facilis non repellendus? Non, alias. Soluta earum animi
+                    ipsam quia illo.</p>
+            </div>
+            <div class="noticias">
+                <h1>Noticias</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sed, obcaecati dignissimos veritatis ea
+                    adipisci modi, doloribus ratione eveniet facilis non repellendus? Non, alias. Soluta earum animi
+                    ipsam quia illo.</p>
+            </div>
+            <div class="noticias">
+                <h1>Noticias</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sed, obcaecati dignissimos veritatis ea
+                    adipisci modi, doloribus ratione eveniet facilis non repellendus? Non, alias. Soluta earum animi
+                    ipsam quia illo.</p>
+            </div>
+        </div>
 
     </main>
     <footer class="footer">
         <div class="menu-footer">
             <ul class="menu-footer">
                 <li class="menu-elem">
-                  <a href="../index.html" class="menu-icon">Home</a>
+                    <a href="../index.html" class="menu-icon">Home</a>
                 </li>
                 <li class="menu-elem">
-                  <a href="socios.html" class="menu-icon">Socios</a>
+                    <a href="socios.html" class="menu-icon">Socios</a>
                 </li>
                 <li class="menu-elem">
-                  <a href="historia.html" class="menu-icon">Historia</a>
+                    <a href="historia.html" class="menu-icon">Historia</a>
                 </li>
                 <li class="menu-elem">
-                  <a href="futbol.html" class="menu-icon">Fútbol</a>
+                    <a href="futbol.html" class="menu-icon">Fútbol</a>
                 </li>
                 <li class="menu-elem">
-                  <a href="estadio.html" class="menu-icon">Estadio</a>
+                    <a href="estadio.html" class="menu-icon">Estadio</a>
                 </li>
-              </ul>
+            </ul>
         </div>
         <p class="text">@2024 | Todos los derechos reservados</p>
-      </footer>
-      <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
 </body>
+
 </html>
